@@ -278,6 +278,16 @@ img{
             flex-direction: column;
             
         }
+	div.img-box{
+            flex-direction: column;
+            justify-content: center;
+            width: 300px;
+            height: auto;
+        }
+        .slider{
+            width: 330px;
+            margin: none;
+        }
          
 
    }         
