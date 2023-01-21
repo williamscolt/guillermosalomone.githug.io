@@ -14,17 +14,7 @@ a {
   color: #fff;
   text-decoration: none;
 }
-li{
-    border: 1px solid #fff;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    background-color:rgba(0,0,0,.4);
-}
+
 .li{
     border: 1px solid #fff;
     border-radius: 10px;
@@ -36,6 +26,13 @@ li{
 .li:hover{
     
     background-color: rgba(110,110,110.4);
+}
+li{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color:rgba(0,0,0,.4);
 }
 img{
     border: 2px solid #fff;
