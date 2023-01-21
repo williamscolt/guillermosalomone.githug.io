@@ -23,10 +23,11 @@ a {
     background-color:rgba(0,0,0,.4);
 
 }
+
 .li:hover{
-    
-    background-color: rgba(110,110,110.4);
+      background-color: rgba(110,110,110.4);
 }
+
 li{
     border: 1px solid #fff;
     border-radius: 10px;
@@ -34,6 +35,7 @@ li{
     justify-content: center;
     background-color:rgba(0,0,0,.4);
 }
+
 img{
     border: 2px solid #fff;
     border-radius: 5%;
@@ -208,7 +210,6 @@ img{
 }
 
 .btn{
-	
 	border:none;
 	outline:none;
 	background:#111;
@@ -218,8 +219,7 @@ img{
 	cursor: pointer;
 	margin:10px auto;
 	border-radius:10%;
-	
-				 
+	 
 }
 
 
@@ -236,6 +236,7 @@ img{
        }
        .pie{
         background-color: #062b47;
+        border-radius: 10px;
         
        }
         
