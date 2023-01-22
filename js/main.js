@@ -20,3 +20,12 @@ function setImg(){
 	return slider_img.setAttribute('src', "images/"+images[i]);
 	
 }
+
+/* Alerta inicio*/
+function mostrar(){
+	swal("Hola, Bienvenido/a a mi web!", "Soy Carlos.");
+	
+}
+
+
+document.addEventListener('DOMContentLoaded',mostrar, false);
