@@ -23,7 +23,7 @@ function setImg(){
 
 /* Alerta inicio*/
 function mostrar(){
-	swal("Hola, Bienvenido/a a mi web!", "Soy Carlos.");
+	swal("Hola, Bienvenido/a a mi web!", "Soy Guillermo.");
 	
 }
 
