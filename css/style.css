@@ -188,7 +188,7 @@ img{
                 .aside{
                 background-color:rgba(0,0,0,.2);
                 color:#fff
-                flex: 1 1 auto;
+                flex 1 1 auto;
                 }
                 .publicidad{
                     background-color:rgba(0,0,0,.2);
@@ -273,6 +273,7 @@ img{
        .aside{
            flex-direction: column;
            width: auto;
+           margin: 0px auto;
        }
        .nav{
         flex-direction:column;
@@ -284,10 +285,12 @@ img{
            flex-direction:column;
            justify-content: end;
            width:auto;
+           margin: 0px auto;
            
         }
         .article{
             flex-direction: column;
+            width:auto ;
             
         }
 	div.img-box{
@@ -302,7 +305,91 @@ img{
         }
          
 
-   }     
+}
+@media all and (max-width:370px){
+    .aside{
+        flex-direction:column;
+        justify-content: end;
+        width:auto;
+        
+     }
+     .fotoaside{
+        display: flex;
+        flex-direction:column;
+        margin: 0px auto;
+     }
+     .fotocontacto{
+        width: 280px;
+        height: 200px;
+     }
+     .article{
+        display: flex;
+         flex-direction: column;
+         width:320px;
+         
+     }
+     .li{
+        display: flex;
+        justify-content: center;
+        
+     }
+ div.img-box{
+         flex-direction: column;
+         justify-content: center;
+         width: 300px;
+         height: auto;
+     }
+     .slider{
+         width: 330px;
+         margin: none;
+     }
+} 
+@media all and (max-width:280px){
+    .aside{
+        flex-direction:column;
+        justify-content: end;
+        width: 250px;        
+     }
+     .fotoaside{
+        display: flex;
+        flex-direction:column;
+        margin: 0px auto;
+        width: 230px;
+     }
+     .fotocontacto{
+        width: 220px;
+        height: 180px;
+     }
+     .articulos{
+        width: 250px;
+     }
+     .article{
+        display: flex;
+         flex-direction: column;
+         width:240px;
+         
+     }
+     .fotoindex{
+        width: 220px;
+     }
+     
+     .li{
+        display: flex;
+        justify-content: center;
+        width: 230px;
+        
+     }
+ div.img-box{
+         flex-direction: column;
+         justify-content: center;
+         width: 220px;
+         height: auto;
+     }
+     .slider{
+         width: 220px;
+         margin: none;
+     }
+}                   
 
 body::-webkit-scrollbar{
     width: 15px;
