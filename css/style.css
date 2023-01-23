@@ -344,7 +344,65 @@ img{
          margin: none;
      }
 } 
+@media all and (max-width:320px){
+.master{
+    width:310px ;
+}
+    body{
+        width: 310px;
+    }
+.section{
+    width: 300px;
+}    
+.article{
+        width: 290px;
+    }
+.fotoindex{
+        width: 280px;
+    }
+.aside{
+    flex-direction:column;
+    justify-content: end;
+    width: 300px;        
+ }
+ .fotoaside{
+    display: flex;
+    flex-direction:column;
+    margin: 0px auto;
+    width: 280px;
+ }
+ .fotocontacto{
+    width: 270px;
+    height: 180px;
+ }
+ .articulos{
+    width: 300px;
+ }
+ 
+.li{
+    display: flex;
+    justify-content: center;
+    width: 280px;
+    
+ }
+.slider{
+    width: 280px;
+    margin: none;
+} 
+div.img-box{
+    width: 280px;
+}
+}
 @media all and (max-width:280px){
+    .master{
+        width: 270px;
+    }
+    body{
+        width: 280px;
+    }
+    .section{
+        width: 260px;
+    }
     .aside{
         flex-direction:column;
         justify-content: end;
@@ -366,8 +424,11 @@ img{
      .article{
         display: flex;
          flex-direction: column;
-         width:240px;
+         width:250px;
          
+     }
+     a.mail{
+        width:240px;
      }
      .fotoindex{
         width: 220px;
