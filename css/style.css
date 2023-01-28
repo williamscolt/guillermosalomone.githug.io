@@ -241,7 +241,7 @@ img{
         
        }
         
-@media all and (max-width:800px){
+@media all and (max-width:1024px){
         .section{
            flex-direction:column;
            width: auto;
