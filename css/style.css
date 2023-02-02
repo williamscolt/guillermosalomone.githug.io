@@ -472,7 +472,11 @@ img{
     }
 .section{
     width: 300px;
-}    
+}
+.logo {
+    width: 290px;
+    text-align: center;
+}
 .article{
         width: 290px;
     }
@@ -512,7 +516,7 @@ div.img-box{
     width: 280px;
 }
 }
-@media all and (max-width:280px){
+@media all and (max-width:270px){
     .master{
         width: 270px;
     }
